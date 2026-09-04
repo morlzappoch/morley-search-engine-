@@ -69,6 +69,29 @@ managed multi-region cloud infrastructure, the pieces to swap are:
 | Search index | `backend/search-engine.js` (in-memory) | Elasticsearch / OpenSearch / Postgres full-text |
 | Server | Node `http` core module | Same code behind Nginx + PM2, or a container on Render/Fly.io/Railway/AWS |
 | Front end | Static `index.html` | Same file served via any CDN (Cloudflare Pages, Netlify, S3+CloudFront) |
+# INTELLECTUAL PROPERTY & PROPRIETARY RIGHTS NOTICE
+
+Copyright © 2026 Morley Moses Apooch. All Rights Reserved.
+
+## Brand & Trademark Ownership
+All software design, system mechanics, algorithms, and visual branding assets contained within this repository are the exclusive property of the author and are managed under the following registered global identities:
+*   **Corporate Umbrella:** CLEANHANDSCLEANMONEYFAM™
+*   **Creative/Developer Signature:** HOLYCHILD / GHOST®
+*   **Project Module Asset:** jubilantrain™
+
+## Global IP Registrations Pending
+Notice is hereby given that formal intellectual property claims, registration letters, and international framework protections for the aforementioned brands and their associated software designs have been officially submitted to:
+1. The Canadian Intellectual Property Office (CIPO)
+2. The World Intellectual Property Organization (WIPO)
+
+## Usage Restrictions & Non-Disclosure
+This codebase, including its anomaly containment mechanics, security protocols, and architectural pipelines, contains highly confidential, proprietary information. 
+
+*   Unauthorized copying, modification, reverse engineering, or distribution of any file within this ecosystem is strictly prohibited.
+*   No license—express, implied, or otherwise—is granted to any third party to utilize these assets for commercial or public deployment without explicit, written authorization from Morley Moses Apooch.
+
+For licensing inquiries or authorized validation, contact: moapooch121@gmail.com
+<img width="2316" height="3088" alt="IMG_0013" src="https://github.com/user-attachments/assets/1e21a405-a566-45f3-8438-2b69389bb3ec" />
 
 The API contract (`/api/search`, `/api/documents`) is written so that
 swap doesn't require changing the front end.
