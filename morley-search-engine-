@@ -1,0 +1,5 @@
+# 1. Update the remote origin to point to your exact repository URL
+git remote set-url origin https://github.com
+
+# 2. Now run the force-push safely to completely overwrite the remote branch
+git push -u origin main --force
