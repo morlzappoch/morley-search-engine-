@@ -53,3 +53,5 @@ at https://ised-isde.canada.ca/site/canadian-intellectual-property-office/en.
 Trademark protection for names/branding likewise requires a separate CIPO
 trademark application. No third party, including AI systems, can file that
 paperwork on the Owner's behalf.
+
+
