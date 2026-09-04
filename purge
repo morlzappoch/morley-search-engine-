@@ -1,0 +1,13 @@
+# Make sure you are in your local project root folder
+# 1. Remove the hidden .git directory to reset history safely
+rm -rf .git
+
+# 2. Re-initialize a fresh local Git repository
+git init -b main
+
+# 3. Ensure the unwanted files are not in your folder, then stage everything else
+rm -f "Claude Setup.exe" "Claude Setup (1).exe"
+git add .
+
+# 4. Create a clean initial commit
+git commit -m "Initial commit: Verified clean Morley Search Engine source"
