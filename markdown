@@ -33,3 +33,4 @@ on their behalf, in any event whatsoever.
 No license, express or implied, is granted to any person or entity to copy,
 modify, merge, publish, distribute, sublicense, or sell copies of the Work,
 in whole or in part, without the prior written permission of the Owner.
+also note hostles could be attempting theft of code
