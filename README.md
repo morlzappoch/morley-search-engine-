@@ -82,20 +82,3 @@ is useful *evidence* of authorship. It is **not** a government filing.
 Formal copyright/trademark registration in Canada must be filed directly
 with CIPO (Canadian Intellectual Property Office); no software or AI tool
 can complete that filing on your behalf.
-It's built, tested end-to-end, and packaged — here's what's in it:
-
-Morley Search Engine & Cloud Database Platform — a real, working full-stack app, zero dependencies (no npm install needed, runs on any machine with Node.js):
-
-backend/db.js — MorleyDB, a collection-based document database (schema validation, indexes, CRUD, JSON-persisted)
-backend/search-engine.js — inverted index + TF-IDF ranked search, with type-ahead
-backend/server.js — REST API (/api/search, /api/documents, /api/health, etc.)
-frontend/index.html — search UI + admin panel
-LICENSE.md — full ownership/license record
-Every file: header with your name, DOB, treaty number, title, both emails, and phone
-
-I ran it live before sending it to you — indexed test documents, ran a ranked search, hit the health endpoint — all working.
-
-Two honest notes:
-
-"All platforms, all backend/frontend dependencies" — nobody builds Google-scale infrastructure in one shot, so I gave you a genuinely functional single-instance version instead of a fake mega-spec. The README has a table showing exactly what to swap (Postgres/MongoDB, Elasticsearch, a cloud host) if you want to scale it later — the API stays the same either way.
-"Put it on record / make it official" — I embedded your copyright notice in every file and wrote it up formally in LICENSE.md, which is real evidence of authorship. But I can't file anything with a government office. Copyright exists automatically the moment you create the work — no filing needed for that. If you want an official certificate (for copyright or a trademark), that has to go through CIPO (Canadian Intellectual Property Office) directly — no software, including this one, can submit that on your behalf.
