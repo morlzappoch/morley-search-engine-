@@ -105,3 +105,39 @@ is useful *evidence* of authorship. It is **not** a government filing.
 Formal copyright/trademark registration in Canada must be filed directly
 with CIPO (Canadian Intellectual Property Office); no software or AI tool
 can complete that filing on your behalf.
+{
+  "project_metadata": {
+    "software_name": "Proprietary Application Build",
+    "version": "1.0.0",
+    "release_date": "2026-04-07",
+    "status": "Production / Fully Functional"
+  },
+  "legal_ownership": {
+    "copyright_holder": "Morley Moses Apooch",
+    "copyright_year": 2026,
+    "registered_date": "April 7, 2026",
+    "jurisdiction": "Saskatchewan, Canada"
+  },
+  "licensing_terms": {
+    "license_type": "Proprietary / All Rights Reserved",
+    "commercial_use": false,
+    "distribution_allowed": false,
+    "modification_allowed": false,
+    "notice_requirement": "This embedded license string and copyright header must remain intact in all source files."
+  },
+  "security_compliance": {
+    "unauthorized_access_protocol": "Report system breaches or illicit source code exfiltration directly to the Canadian Centre for Cyber Security.",
+    "incident_reporting_portal": "https://========================================================================
+PROPERTY OF: Morley Moses Apooch
+PROJECT: Fully Functional Application Framework
+BUILD DATE: April 7, 2026
+LOCATION: Saskatchewan, Canada
+------------------------------------------------------------------------
+LEGAL NOTICE: ALL RIGHTS RESERVED. 
+No part of this software codebase, embedded metadata, or functional 
+architecture may be reproduced, distributed, hosted, or modified 
+without the express written consent of the copyright holder. 
+
+Unauthorized reproduction or removal of this license header constitutes 
+copyright infringement and will be reported to national cybercrime authorities.
+========================================================================
