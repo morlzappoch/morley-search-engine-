@@ -118,3 +118,16 @@ without the express written consent of the copyright holder.
 Unauthorized reproduction or removal of this license header constitutes 
 copyright infringement and will be reported to national cybercrime authorities.
 ========================================================================
+Warranty Information
+Additional Legal Rights for Consumers
+For consumers, who are covered by consumer protection laws or regulations in their country of purchase or, if different, their country of residence, the benefits conferred by Apple's Limited Warranty are in addition to all rights and remedies conveyed by such consumer protection laws and regulations, including but not limited to these additional rights.
+For further information on rights provided by consumer law, please click here.
+
+Non-Apple Branded and Non-Beats Branded Products / Third Party Products
+Apple's Limited Warranty does not apply to products that are not Apple-branded or Beats-branded, even if packaged or sold with Apple products. Non-Apple branded or Beats-branded products may have the benefit of a manufacturer's warranty provided by the product manufacturer. Please see your product box and literature for details.
+
+Discontinued Products
+For information about service for discontinued products, please click here.
+
+Warranty Obligor for Region or Country of Purchase
+A worldwide list of companies obligated under Apple's Limited Warranty. Learn more
