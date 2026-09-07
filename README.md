@@ -1,6 +1,6 @@
 # Morley Search Engine & Cloud Database Platform
 I’m also under attack I believe it’s a major company for my code I developed with Anthropic Claude in under 45 minutes directing clause to write code uncopywrited code and then write my application 
-© 2026 Morley Moses Apooch. All Rights Reserved. See `LICENSE.md`.
+© 2026 Morley Moses Apooch (dob 1988 feb 09 )All Rights Reserved. See `LICENSE.md`.
 A fully functional, dependency-free full-text search engine with an
 embedded document database and a web front end — runs anywhere Node.js
 runs, with no `npm install` step and no external services required.
