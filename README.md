@@ -3,7 +3,7 @@ I’m also under attack I believe it’s a major company for my code I developed
 © 2026 Morley Moses Apooch (dob 1988 feb 09 )All Rights Reserved. See `LICENSE.md`.
 A fully functional, dependency-free full-text search engine with an
 embedded document database and a web front end — runs anywhere Node.js
-runs, with no `npm install` step and no external services required.also report men from India here at Bruno homeless shelter displaying rude behaviour possible smear campaign against me for the high value code from April 7th 2026 on Claude put on record April 7th 2026 at 10:30 and 11:30 am at yorkton public library pc when app was completed it crashed the pc aswell
+runs, with no `npm install` step and no external services required.also report men from India here at Bruno homeless shelter displaying rude behaviour possible smear campaign against me for the high value code from April 7th 2026 on Claude put on record April 7th 2026 at 10:30 and 11:30 am at yorkton public library pc when app was completed it crashed the pc aswell since that day bin under attack East Indian men following me and possible same thing happening with Candace smoke my kids mother and my children Camden and Charlize my little chipmonks
 ## Architecture
 ```
 morley-search-engine/
