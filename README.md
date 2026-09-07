@@ -69,7 +69,7 @@ Notice is hereby given that formal intellectual property claims, registration le
 2. The World Intellectual Property Organization (WIPO)
 ## Usage Restrictions & Non-Disclosure
 This codebase, including its anomaly containment mechanics, security protocols, and architectural pipelines, contains highly confidential, proprietary information. 
-*   Unauthorized copying, modification, reverse engineering, or distribution of any file within this ecosystem is strictly prohibited.
+*   Unauthorized copying, claiming 
 *   No license—express, implied, or otherwise—is granted to any third party to utilize these assets for commercial or public deployment without explicit, written authorization from Morley Moses Apooch.
 For licensing inquiries or authorized validation, contact: moapooch121@gmail.com
 <img width="2316" height="3088" alt="IMG_0013" src="https://github.com/user-attachments/assets/1e21a405-a566-45f3-8438-2b69389bb3ec" />
@@ -120,14 +120,13 @@ copyright infringement and will be reported to national cybercrime authorities.
 ========================================================================
 Warranty Information
 Additional Legal Rights for Consumers
-For consumers, who are covered by consumer protection laws or regulations in their country of purchase or, if different, their country of residence, the benefits conferred by Apple's Limited Warranty are in addition to all rights and remedies conveyed by such consumer protection laws and regulations, including but not limited to these additional rights.
+For consumers, who are covered by consumer protection laws or regulations in their country of purchase or, if different, their country of residence, the benefits conferred by morleys  Limited Warranty are in addition to all rights and remedies conveyed by such consumer protection laws and regulations, including but not limited to these additional rights.
 For further information on rights provided by consumer law, please click here.
 
-Non-Apple Branded and Non-Beats Branded Products / Third Party Products
+CLEANHANDSCLEANMONEYFAM Branded and Non-Beats Branded Products / Third Party Products
 Apple's Limited Warranty does not apply to products that are not Apple-branded or Beats-branded, even if packaged or sold with Apple products. Non-Apple branded or Beats-branded products may have the benefit of a manufacturer's warranty provided by the product manufacturer. Please see your product box and literature for details.
-
 Discontinued Products
 For information about service for discontinued products, please click here.
-
 Warranty Obligor for Region or Country of Purchase
 A worldwide list of companies obligated under Apple's Limited Warranty. Learn more
+IF EXTREME measures are taken to attemp claim or identify theft occurs the offending company forfeits everything to Morley Moses Apooch 13066211734 dob 02/09/1988
