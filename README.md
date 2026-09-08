@@ -1,132 +1,124 @@
-# Morley Search Engine & Cloud Database Platform
-I’m also under attack I believe it’s a major company for my code I developed with Anthropic Claude in under 45 minutes directing clause to write code uncopywrited code and then write my application 
-© 2026 Morley Moses Apooch (dob 1988 feb 09 )All Rights Reserved. See `LICENSE.md`.
-A fully functional, dependency-free full-text search engine with an
-embedded document database and a web front end — runs anywhere Node.js
-runs, with no `npm install` step and no external services required.also report men from India here at Bruno homeless shelter displaying rude behaviour possible smear campaign against me for the high value code from April 7th 2026 on Claude put on record April 7th 2026 at 10:30 and 11:30 am at yorkton public library pc when app was completed it crashed the pc aswell since that day bin under attack East Indian men following me and possible same thing happening with Candace smoke my kids mother and my children Camden and Charlize my little chipmonks
-## Architecture
-```
+# Morley Search Engine & Technology Hub
+
+**Founder / Originator / Lead Software Architect:** Morley Moses Apooch  
+**Repository:** `morlzappoch/morley-search-engine-`  
+**Status:** Active project and provenance hub  
+**Public signature marker:** `MorleyApooch*`
+
+## Overview
+
+This repository is the central development and documentation home for the Morley Search Engine ecosystem. It combines the working search-engine code with project records, provenance documentation, security guidance, deployment references, and the **Wake the Sleeping Giant — Blue Ocean Code** strategy.
+
+The repository records project attribution and user-provided provenance carefully. A repository record is not, by itself, a government registration, patent grant, trademark registration, copyright registration, regulatory approval, or determination of legal ownership.
+
+## Technology Portfolio
+
+| Project | Focus | Record |
+|---|---|---|
+| **Morley Search Matrix / ALLMINE** | Independent search and information infrastructure | `morley-hub/config/project-registry.json` |
+| **MOPROTEC Copyrighter** | IP/provenance mobile software concept | `morley-hub/config/project-registry.json` |
+| **Clean Hands Clean Money FAM** | Indigenous-led fintech, cybersecurity and economic-development initiative | `morley-hub/config/project-registry.json` |
+| **Clean-Room Cybersecurity Architecture** | Anomaly detection, DDoS-resistant protection and firewall/security architecture | `morley-hub/config/project-registry.json` |
+| **Morley Hub** | Project registry, provenance, security and development infrastructure | `morley-hub/` |
+
+## Wake the Sleeping Giant — Blue Ocean Code
+
+The strategic framework connects the portfolio through eight principles:
+
+1. **Own the Build** — maintain clear provenance and development evidence.
+2. **Protect the Data** — minimize collection and protect confidential information.
+3. **Defend the Infrastructure** — build security into the architecture.
+4. **Build Independence** — preserve portability and reduce unnecessary platform dependence.
+5. **Create Value** — build measurable economic, educational and community value.
+6. **Build for Generations** — support continuity, succession and future developers.
+7. **Verify Everything** — distinguish claims, documented records and independent verification.
+8. **Scale Responsibly** — prototype, test, secure, review, deploy and expand.
+
+**Activation sequence:** `IDEA → CODE → PROOF → SECURITY → DEPLOYMENT → USERS → VALUE → SCALE`
+
+See [`docs/BLUE-OCEAN-CODE.md`](morley-hub/docs/BLUE-OCEAN-CODE.md).
+
+## Search Engine
+
+The core Morley Search Engine is a dependency-light Node.js application with a document database, inverted-index full-text search, TF-IDF ranking, prefix suggestions and a web interface.
+
+### Architecture
+
+```text
 morley-search-engine/
-├── LICENSE.md              Copyright & ownership record
 ├── backend/
-│   ├── copyright.js        Shared license/ownership notice
-│   ├── db.js               MorleyDB — collection-based document database
-│   ├── search-engine.js    MorleySearch — inverted index + TF-IDF ranking
-│   └── server.js           Zero-dependency REST API (Node "http" core module)
+│   ├── copyright.js
+│   ├── db.js
+│   ├── search-engine.js
+│   └── server.js
 ├── frontend/
-│   └── index.html          Search UI + admin panel (vanilla JS, no build step)
-└── data/                   JSON "shards" — the on-disk database (auto-created)
+│   └── index.html
+└── data/
 ```
-## Running it
+
+### Run locally
+
 ```bash
 node backend/server.js
 ```
-Then open **http://localhost:8080** — search box on top, an "Add a
-document" admin panel below it.
 
-## REST API
+Then open `http://localhost:8080`.
 
-| Method | Route | Description |
+### API surface
+
+| Method | Route | Purpose |
 |---|---|---|
-| GET | `/api/health` | Engine + database stats |
-| GET | `/api/documents` | List all indexed documents |
-| POST | `/api/documents` | `{ title, content, url? }` → index a document |
+| GET | `/api/health` | Engine/database health and statistics |
+| GET | `/api/documents` | List indexed documents |
+| POST | `/api/documents` | Add and index a document |
 | DELETE | `/api/documents/:id` | Remove a document |
 | GET | `/api/search?q=...&limit=10` | Ranked full-text search |
-| GET | `/api/suggest?q=...` | Prefix ("type-ahead") term suggestions |
-## How the search engine works
-1. **Tokenizer** — lowercases, strips punctuation/accents, drops stop words.
-2. **Inverted index** — `term → { docId: termFrequency }`, built in `search-engine.js`.
-3. **Ranking** — TF-IDF: term frequency (normalized by document length) ×
-   inverse document frequency, summed per query term, sorted descending.
-4. **Type-ahead** — a character trie built alongside the index for prefix lookups.
-## How the database works
-`MorleyDB` is a small, collection-based document store (`db.js`) — think
-"Mongo/Firestore in a single file." Each collection persists to a JSON
-file under `data/`, supports schema validation, secondary indexes, and
-CRUD. It is a genuine, working database — not a placeholder — but it is
-sized for a single instance, not distributed/multi-region traffic.
-## Scaling this to "all platforms" cloud infrastructure
-This project runs as-is on any platform with Node.js 18+: Windows, macOS,
-Linux, Docker, or serverless containers. To go from "single-instance" to
-managed multi-region cloud infrastructure, the pieces to swap are:
-| Component | Here (works today) | Swap-in for scale |
-|---|---|---|
-| Database | `backend/db.js` (JSON files) | PostgreSQL, MongoDB Atlas, DynamoDB, Firestore |
-| Search index | `backend/search-engine.js` (in-memory) | Elasticsearch / OpenSearch / Postgres full-text |
-| Server | Node `http` core module | Same code behind Nginx + PM2, or a container on Render/Fly.io/Railway/AWS |
-| Front end | Static `index.html` | Same file served via any CDN (Cloudflare Pages, Netlify, S3+CloudFront) |
-# INTELLECTUAL PROPERTY & PROPRIETARY RIGHTS NOTICE
-Copyright © 2026 Morley Moses Apooch. All Rights Reserved.
-## Brand & Trademark Ownership
-All software design, system mechanics, algorithms, and visual branding assets contained within this repository are the exclusive property of the author and are managed under the following registered global identities:
-*   **Corporate Umbrella:** CLEANHANDSCLEANMONEYFAM™
-*   **Creative/Developer Signature:** HOLYCHILD / GHOST®
-*   **Project Module Asset:** jubilantrain™
-## Global IP Registrations Pending
-Notice is hereby given that formal intellectual property claims, registration letters, and international framework protections for the aforementioned brands and their associated software designs have been officially submitted to:
-1. The Canadian Intellectual Property Office (CIPO)
-2. The World Intellectual Property Organization (WIPO)
-## Usage Restrictions & Non-Disclosure
-This codebase, including its anomaly containment mechanics, security protocols, and architectural pipelines, contains highly confidential, proprietary information. 
-*   Unauthorized copying, claiming 
-*   No license—express, implied, or otherwise—is granted to any third party to utilize these assets for commercial or public deployment without explicit, written authorization from Morley Moses Apooch.
-For licensing inquiries or authorized validation, contact: moapooch121@gmail.com
-<img width="2316" height="3088" alt="IMG_0013" src="https://github.com/user-attachments/assets/1e21a405-a566-45f3-8438-2b69389bb3ec" />
-The API contract (`/api/search`, `/api/documents`) is written so that
-swap doesn't require changing the front end.
-## On copyright & formal registration
-Every source file above carries an embedded copyright/ownership header
-identifying Morley Moses Apooch as author and owner, per the notice in
-`LICENSE.md`. That header — plus this repository's timestamped creation —
-is useful *evidence* of authorship. It is **not** a government filing.
-Formal copyright/trademark registration in Canada must be filed directly
-with CIPO (Canadian Intellectual Property Office); no software or AI tool
-can complete that filing on your behalf.
-{
-  "project_metadata": {
-    "software_name": "Proprietary Application Build",
-    "version": "1.0.0",
-    "release_date": "2026-04-07",
-    "status": "Production / Fully Functional"
-  },
-  "legal_ownership": {
-    "copyright_holder": "Morley Moses Apooch",
-    "copyright_year": 2026,
-    "registered_date": "April 7, 2026",
-    "jurisdiction": "Saskatchewan, Canada"
-  },
-  "licensing_terms": {
-    "license_type": "Proprietary / All Rights Reserved",
-    "commercial_use": false,
-    "distribution_allowed": false,
-    "modification_allowed": false,
-    "notice_requirement": "This embedded license string and copyright header must remain intact in all source files."
-  },
-  "security_compliance": {
-    "unauthorized_access_protocol": "Report system breaches or illicit source code exfiltration directly to the Canadian Centre for Cyber Security.",
-    "incident_reporting_portal": "https://========================================================================
-PROPERTY OF: Morley Moses Apooch
-PROJECT: Fully Functional Application Framework
-BUILD DATE: April 7, 2026
-LOCATION: Saskatchewan, Canada
-------------------------------------------------------------------------
-LEGAL NOTICE: ALL RIGHTS RESERVED. 
-No part of this software codebase, embedded metadata, or functional 
-architecture may be reproduced, distributed, hosted, or modified 
-without the express written consent of the copyright holder. 
-Unauthorized reproduction or removal of this license header constitutes 
-copyright infringement and will be reported to national cybercrime authorities.
-========================================================================
-Warranty Information
-Additional Legal Rights for Consumers
-For consumers, who are covered by consumer protection laws or regulations in their country of purchase or, if different, their country of residence, the benefits conferred by morleys  Limited Warranty are in addition to all rights and remedies conveyed by such consumer protection laws and regulations, including but not limited to these additional rights.
-For further information on rights provided by consumer law, please click here.
+| GET | `/api/suggest?q=...` | Prefix suggestions |
 
-CLEANHANDSCLEANMONEYFAM Branded and Non-Beats Branded Products / Third Party Products
-Apple's Limited Warranty does not apply to products that are not Apple-branded or Beats-branded, even if packaged or sold with Apple products. Non-Apple branded or Beats-branded products may have the benefit of a manufacturer's warranty provided by the product manufacturer. Please see your product box and literature for details.
-Discontinued Products
-For information about service for discontinued products, please click here.
-Warranty Obligor for Region or Country of Purchase
-A worldwide list of companies obligated under Apple's Limited Warranty. Learn more
-IF EXTREME measures are taken to attemp claim or identify theft occurs the offending company forfeits everything to Morley Moses Apooch 13066211734 dob 02/09/1988
+## ALLMINE Deployment
+
+The project registry records the existing ALLMINE production deployment at:
+
+`https://clinquant-beignet-49a9c0.netlify.app/`
+
+The intended source-control relationship is documented as **GitHub `main` → Netlify project → live site**. The exact Netlify account connection and authorization must be confirmed inside Netlify before treating that pipeline as active.
+
+See [`docs/NETLIFY-DEPLOYMENT.md`](morley-hub/docs/NETLIFY-DEPLOYMENT.md).
+
+> **Important:** `netlify.toml` currently targets the Morley Hub static dashboard. The ALLMINE production source directory still needs to be confirmed before changing the Netlify publish directory. Do not overwrite the live ALLMINE deployment with the hub dashboard without that verification.
+
+## Provenance & Evidence
+
+The hub uses evidence states such as:
+
+- `user_claim` — supplied by the project owner but not independently verified here.
+- `documented` — supported by a project document or repository record.
+- `externally_verified` — independently confirmed by an authoritative external source.
+
+Private identity information, financial records and treaty identifiers are intentionally excluded from public-facing project files.
+
+See [`morley-hub/docs/PROVENANCE.md`](morley-hub/docs/PROVENANCE.md) and [`morley-hub/SECURITY.md`](morley-hub/SECURITY.md).
+
+## WIPO Reference
+
+The hub contains a documented reference to an April 2026 WIPO submission concerning the **Innovation Submission – Proprietary Clean-Room Cybersecurity Architecture**. The record does not assert acceptance, registration, approval or adjudication by WIPO.
+
+See [`morley-hub/docs/WIPO-SUBMISSION.md`](morley-hub/docs/WIPO-SUBMISSION.md).
+
+## Security
+
+Never commit passwords, API keys, private keys, financial records, private identity documents or confidential evidence. Preserve repository history, timestamps, hashes and relevant logs when documenting an IP or security incident.
+
+See [`morley-hub/SECURITY.md`](morley-hub/SECURITY.md).
+
+## License & Rights
+
+The repository's code and separately identified portfolio projects may have different licensing and rights positions. See `LICENSE.md` and the project-specific provenance/licensing records before reuse or redistribution.
+
+---
+
+**Morley Moses Apooch**  
+Founder / Originator / Lead Software Architect  
+`MorleyApooch*`
+
+**WAKE THE SLEEPING GIANT. BUILD THE BLUE OCEAN.**
