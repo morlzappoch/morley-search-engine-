@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "1.1.0",
   "registry": {
     "name": "Morley Hub",
     "owner": {
@@ -10,6 +10,12 @@
     "publicSignatureMarker": "MorleyApooch*",
     "privateIdentifiersExcluded": true
   },
+  "strategy": {
+    "name": "Wake the Sleeping Giant — Blue Ocean Code",
+    "status": "strategic-project-direction",
+    "document": "docs/BLUE-OCEAN-CODE.md",
+    "activationSequence": ["IDEA", "CODE", "PROOF", "SECURITY", "DEPLOYMENT", "USERS", "VALUE", "SCALE"]
+  },
   "projects": [
     {
       "id": "morley-search-matrix",
@@ -18,6 +24,7 @@
       "status": "documented",
       "attributedTo": "Morley Moses Apooch",
       "repository": "https://github.com/morlzappoch/morley-search-engine-/tree/morley-search-engine",
+      "liveDeployment": "https://clinquant-beignet-49a9c0.netlify.app/",
       "provenance": {
         "source": "website(1)_public_use.html",
         "claim": "Search Matrix Engine developed and owned by Morley Moses Apooch; public access does not transfer ownership."
