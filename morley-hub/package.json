@@ -1,0 +1,15 @@
+{
+  "name": "morley-hub",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Central GitHub project registry and provenance hub for Morley Moses Apooch.",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "node apps/hub/server.js",
+    "dev": "node --watch apps/hub/server.js",
+    "test": "node --test",
+    "validate": "node scripts/validate-registry.js"
+  },
+  "dependencies": { "express": "^5.1.0" }
+}

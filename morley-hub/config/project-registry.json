@@ -1,0 +1,107 @@
+{
+  "schemaVersion": "1.0.0",
+  "registry": {
+    "name": "Morley Hub",
+    "owner": {
+      "name": "Morley Moses Apooch",
+      "role": "Founder / Originator / Lead Software Architect",
+      "attributionStatus": "user_claim"
+    },
+    "publicSignatureMarker": "MorleyApooch*",
+    "privateIdentifiersExcluded": true
+  },
+  "projects": [
+    {
+      "id": "morley-search-matrix",
+      "name": "Morley Search Matrix / Search Engine",
+      "type": "software",
+      "status": "documented",
+      "attributedTo": "Morley Moses Apooch",
+      "repository": "https://github.com/morlzappoch/morley-search-engine-/tree/morley-search-engine",
+      "provenance": {
+        "source": "website(1)_public_use.html",
+        "claim": "Search Matrix Engine developed and owned by Morley Moses Apooch; public access does not transfer ownership."
+      }
+    },
+    {
+      "id": "moprotec-copyrighter",
+      "name": "MOPROTEC Copyrighter",
+      "type": "mobile-software",
+      "status": "documented",
+      "attributedTo": "Morley Moses Apooch",
+      "technology": ["Flutter", "Dart"],
+      "platforms": ["Android", "iOS"],
+      "provenance": {
+        "source": "Morley Moses Apooch Startup Launch Pack.docx",
+        "claim": "Project materials identify Morley Moses Apooch as founder/originator and contain a 2026 copyright notice."
+      }
+    },
+    {
+      "id": "clean-hands-clean-money-fam",
+      "name": "Clean Hands Clean Money FAM",
+      "type": "fintech-cybersecurity",
+      "status": "documented",
+      "attributedTo": "Morley Moses Apooch",
+      "domains": ["fintech", "cybersecurity", "economic-development"],
+      "provenance": {
+        "source": "CleanHandsCleanMoneyFAM_FullProposal (3).docx",
+        "claim": "Project proposal identifies Morley Moses Apooch as founder/originator and describes proprietary technology concepts.",
+        "developmentPeriod": "2026-04"
+      }
+    },
+    {
+      "id": "clean-room-cybersecurity",
+      "name": "Proprietary Clean-Room Cybersecurity Architecture",
+      "type": "cybersecurity",
+      "status": "user_claim",
+      "attributedTo": "Morley Moses Apooch",
+      "claimedPriorityDate": "2026-04-10",
+      "modules": [
+        "Automated Network Anomaly Detection Engine",
+        "DDoS-Resistant Protection Framework",
+        "Custom Firewall & Security Framework"
+      ],
+      "provenance": {
+        "source": "project records",
+        "claim": "User-provided project record identifies April 10, 2026 as the claimed priority date."
+      }
+    }
+  ],
+  "submissions": [
+    {
+      "id": "wipo-april-2026",
+      "organization": "WIPO",
+      "type": "submission-reference",
+      "date": "2026-04",
+      "status": "documented",
+      "submittedBy": "Morley Moses Apooch",
+      "signoff": "MorleyApooch*",
+      "portal": "https://www.wipo.int/portal/en/index.html",
+      "subject": "Innovation Submission – Proprietary Clean-Room Cybersecurity Architecture",
+      "verification": {
+        "acceptedByWipo": false,
+        "note": "This repository does not assert WIPO acceptance, registration, approval, or adjudication."
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "id": "launch-pack",
+      "name": "Morley Moses Apooch Startup Launch Pack.docx",
+      "classification": "project-document",
+      "status": "documented"
+    },
+    {
+      "id": "chcm-proposal",
+      "name": "CleanHandsCleanMoneyFAM_FullProposal (3).docx",
+      "classification": "project-document",
+      "status": "documented"
+    },
+    {
+      "id": "search-matrix-public-use",
+      "name": "website(1)_public_use.html",
+      "classification": "project-metadata",
+      "status": "documented"
+    }
+  ]
+}

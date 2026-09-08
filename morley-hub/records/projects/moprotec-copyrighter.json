@@ -1,0 +1,7 @@
+{
+  "id": "moprotec-copyrighter",
+  "attributedTo": "Morley Moses Apooch",
+  "status": "documented",
+  "technology": ["Flutter", "Dart"],
+  "platforms": ["Android", "iOS"]
+}

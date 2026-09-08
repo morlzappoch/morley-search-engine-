@@ -1,0 +1,13 @@
+{
+  "schemaVersion": "1.0.0",
+  "events": [
+    {
+      "id": "initial-registry-2026-09-08",
+      "timestamp": "2026-09-08",
+      "actor": "Morley Moses Apooch",
+      "action": "initialized",
+      "target": "morley-hub",
+      "note": "Initial GitHub-ready master registry."
+    }
+  ]
+}
