@@ -1,0 +1,21 @@
+# Netlify deployment configuration for the Morley project repository.
+# The existing ALLMINE site must be connected to this repository in Netlify.
+# The publish directory should be set in Netlify to the directory containing
+# the ALLMINE production web assets once that source directory is confirmed.
+
+[build]
+  publish = "morley-hub/apps/hub/public"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+[[redirects]]
+  from = "/api/*"
+  to = "/api/:splat"
+  status = 200
+
+# SPA fallback for the static dashboard.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
